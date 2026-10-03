@@ -113,23 +113,6 @@ Tek homografi düzlemsel sahnelerde veya kamera aynı merkez etrafında döndü�
 
 Geliştirme fikirleri: pozlama dengeleme, dikiş hattı seçimi, multiband blending, silindirik projeksiyon ve çoklu fotoğraf desteği. Bunlar mevcut sürümde uygulanmamıştır.
 
-## GitHub'a yükleme
-
-GitHub'da `panorama-stitcher` adlı boş bir depo oluşturun. Otomatik README seçmeyin; bu README zaten projede var. ZIP dosyasını çıkarıp proje klasöründe aşağıdaki komutları çalıştırın. Adresin içindeki `KULLANICI_ADINIZ` bölümünü değiştirin.
-
-```bash
-git init
-git add .
-git commit -m "Implement SIFT panorama stitching with demo and tests"
-git branch -M main
-git remote add origin https://github.com/KULLANICI_ADINIZ/panorama-stitcher.git
-git push -u origin main
-```
-
-Depo açıklaması önerisi: **SIFT, FLANN ve RANSAC homografi ile iki görüntüden panorama; maskeli feather blending, CLI ve tekrarlanabilir testler.**
-
-Teslim öncesi kontrol: örnek görseller README'de açılıyor mu, kurulum yeni bir sanal ortamda çalışıyor mu, testler geçiyor mu ve depo bağlantısı öğretmeniniz tarafından erişilebilir mi? Kendi çektiğiniz iki fotoğrafla bir sonuç daha eklemek portföyü güçlendirir.
-
 ## Kaynaklar
 
 - [OpenCV — SIFT](https://docs.opencv.org/4.x/da/df5/tutorial_py_sift_intro.html)

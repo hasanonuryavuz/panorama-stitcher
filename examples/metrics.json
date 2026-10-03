@@ -1,0 +1,28 @@
+{
+  "keypoints_left": 929,
+  "keypoints_right": 1199,
+  "good_matches": 298,
+  "inliers": 250,
+  "inlier_ratio": 0.8389,
+  "median_reprojection_error_px": 0.1232,
+  "output_width": 1123,
+  "output_height": 508,
+  "elapsed_seconds": 0.172,
+  "homography_right_to_left": [
+    [
+      1.0571564116180687,
+      0.05122473210999516,
+      364.87932474371223
+    ],
+    [
+      0.012366232915576526,
+      1.0802591744673438,
+      -14.224383725971286
+    ],
+    [
+      4.234117945860187e-06,
+      7.403133922468141e-05,
+      1.0
+    ]
+  ]
+}
